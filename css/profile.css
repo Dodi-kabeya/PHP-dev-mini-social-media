@@ -1,0 +1,10 @@
+#bg_dark{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photo/app/app.png");
+    background-size: cover;
+    height: 300px;
+}
+
+#hold{
+    border-radius: 50%;
+    border: 5px solid red;
+}

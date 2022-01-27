@@ -1,0 +1,47 @@
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-content: center;
+    background-color: #fcfcfc;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+ul li{
+    padding: 9px;
+}
+
+ul li a{
+    color: black;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+@media screen and (max-witdh: 550px) {
+    ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        background-color: white;
+        position: fixed;
+        top: 0px;
+        z-index: 1;
+        width: 100%;
+    }
+    ul li a{
+        color: black;
+    }
+
+    ul li{
+        padding: 3px;
+    }
+    
+    ul li a:hover{
+        color: red;
+    }
+}

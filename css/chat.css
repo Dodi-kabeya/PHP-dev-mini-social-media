@@ -1,0 +1,79 @@
+
+/* message sending */
+.chatting{
+    background-color: #008AD7;
+    width: fit-content;
+    text-align: justify;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+    margin: 10px;
+    transition: background-color 2s ease-in-out;
+}
+.receiver{
+    margin-left: auto;
+    background-color: azure;
+}
+
+/* chatting list and displaying message !! */
+.chatting-list{
+    min-height: 70vh;
+    position: relative;
+    background-size: cover;
+}
+
+#message{
+    border-radius: 12px;
+}
+.myform{
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.myform textarea{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+.myform input[type="submit"]{
+    float: right;
+    width: 27%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+.containeur{
+    width: 95%;
+    margin: auto;
+}
+.clr{
+    margin-top: 20px;
+}
+@media (max-width: 500px){
+    .myform textarea{
+        float: left;
+        width: 65%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-right: 5px;
+    }
+    
+    .myform input[type="submit"]{
+        float: right;
+        width: 27%;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 12px;
+        margin-right: 20px;
+    }
+}
