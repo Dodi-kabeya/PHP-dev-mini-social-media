@@ -1,0 +1,32 @@
+pipeline {
+    
+    agent any
+    
+    stages{
+        
+        stage("Git pull project"){
+            
+            steps {
+                git branch : "master" , url : "https://github.com/dodi-kabeya/PHP-dev-mini-social-media.git"
+            }
+        }
+        
+        stage("Testing ECHO"){
+            
+            steps{
+                echo "Testing Pipeline"
+            }
+            
+        }
+        
+        stage("Build APP"){
+            
+            steps{
+                echo "Successfully Built."
+            }
+            
+        }
+        
+    }
+    
+}
